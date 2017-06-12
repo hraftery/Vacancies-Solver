@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# macOS specific
+.DS_Store
+xcuserdata/
+
