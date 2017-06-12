@@ -11,6 +11,10 @@ Vacancies is a variation on a solitaire card game more commonly known as [Gaps](
 1. Face cards are not used. Only 2 to 10 are used, making each of the four rows only 10 cards long.
 1. When cards are redealt after a round, no gap is left to the right of each suit sequence. Instead, the Aces are included in the redeal, and then they are removed to form gaps in random locations.
 
+## Use
+
+Simply compile the self-contained `vacancies.c`. A simple XCode project file is included for convenience, but is not necessary.
+
 ## Motivation
 
 Like all good solitaire, the game is tantalisingly winnable, though the optimal strategy is hard to grasp. After playing many games with an average success rate of about 1 in 6, I became intrigued about the actual complexity of the game and whether there was a winning strategy. Not having access to the Internet on an international flight to draw upon the world's knowledge, I instead turned to DIY computer science.
